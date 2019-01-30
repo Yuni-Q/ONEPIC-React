@@ -1,15 +1,21 @@
 import * as React from 'react';
 import { BrowserRouter as Router, Route } from 'react-router-dom';
-
-
+import styled from 'styled-components';
+// import { Provider as ReduxProvider } from 'react-redux';
 
 const Home = () => {
+  const StyleHome = styled.div`
+    background-image: url('/Onepic_logo_main.png@3x.png');
+    background-color: black;
+    background-position: center; 
+    background-repeat: no-repeat;
+    background-size: 186px 59.3px;
+    position: fixed;
+    width 100%;
+    height: 100%;
+  `
   return (
-    <div>
-      <h1>
-          안녕하세요 Yuni-Q의 웹사이트입니다.
-      </h1>
-    </div>
+    <StyleHome />
   );
 };
 
@@ -22,6 +28,11 @@ const boards = () => {
     </div>
   );
 };
+
+
+
+
+
 
 class App extends React.Component {
   public render() {
