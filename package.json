@@ -4,9 +4,11 @@
   "main": "index.js",
   "license": "MIT",
   "dependencies": {
+    "@types/moment": "^2.13.0",
     "@types/next": "^2.4.0",
     "@types/react": "^15.0.38",
     "@types/superagent": "^3.5.3",
+    "moment": "^2.24.0",
     "next": "^2.4.7",
     "react": "^15.6.1",
     "react-dom": "^15.6.1",
