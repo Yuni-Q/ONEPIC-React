@@ -8,6 +8,7 @@
     ]
   },
   "rules": {
-    "no-console": [true, "warning"]
+    "no-console": [true, "warning"],
+    "member-access": true
   }
 }
