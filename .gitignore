@@ -62,3 +62,4 @@ typings/
 package-lock.json
 Gemfile.lock
 yarn.lock
+.DS_Store
