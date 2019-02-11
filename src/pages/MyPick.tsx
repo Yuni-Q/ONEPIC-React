@@ -2,7 +2,7 @@ import * as moment from 'moment';
 import * as React from 'react';
 import { Link } from 'react-router-dom';
 import styled from 'styled-components';
-import Nav from '../coponents/Nav';
+import Nav from '../components/Nav';
 
 const StyleMyPick = styled.div`
     display: flex;

@@ -4,8 +4,12 @@ import { Link } from 'react-router-dom';
 import styled from 'styled-components';
 
 const StyledHome = styled.div`
-    background-color: black;
-    height: 100vw;
+  background-color: black;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
 `
 
 const StyledDate = styled.div`
