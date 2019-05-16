@@ -34,15 +34,13 @@ export default class LeftBar extends React.Component<ILeftBarProps, {}> {
     public render() {
         return (
             <StyledLeftBar 
-                style={{
-                overlay: {
-                    backgroundColor: 'rgba(0, 0, 0, 0.5)',
-                },
-                }}
-                isOpen={this.props.leftBarStore.isOpen} 
-            >
-                <h2>11111</h2>
-            </StyledLeftBar>
+                // style={{
+                // overlay: {
+                //     backgroundColor: 'rgba(0, 0, 0, 0.5)',
+                // },
+                // }}
+                isOpen={this.props.leftBarStore.isOpen}
+            />
         )
     }
 }
@@ -52,5 +50,5 @@ interface ILeftBarProps {
   }
 
 interface IStyledLeftBarProps {
-    isOpen: boolean
+    isOpen: boolean;
 } 
